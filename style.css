@@ -1,0 +1,80 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: url('https://getwallpapers.com/wallpaper/full/3/7/6/188780.jpg') no-repeat center center/cover;
+    background-image:E:\HTML\Launchifo\MAIN\188780.jpg ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: #FFFFFF;
+    width: 60%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #FF6347;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    color:#FF6347;
+        filter: brightness(1);
+        text-decoration: bold;
+}
+
+/* Next Button Styles */
+.next-button {
+    display: inline-block;
+    background-color: #FF6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.next-button:hover {
+    background-color: #FF4500;
+    transform: scale(1.1);
+}
+
+/* Navigation Links */
+.nav-links {
+    margin-top: 30px;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-links ul li a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links ul li a:hover {
+    color: #FFD700;
+}
