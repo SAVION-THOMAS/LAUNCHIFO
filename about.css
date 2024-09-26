@@ -1,0 +1,54 @@
+body {
+    font-family: "Sawarabi Mincho", Arial, sans-serif;
+    color: orange;
+    background-image: url('https://getwallpapers.com/wallpaper/full/3/7/6/188780.jpg');
+    background-size: cover;
+    margin-left: 15px;
+    padding: 0;
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    text-align: left;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+    color: #ADFF2F;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 40px;
+    color: #ADFF2F;
+}
+
+
+/* Next Button Styles */
+.next-button {
+    display: inline-block;
+    background-color: #FF6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+      float: left;
+      text-align: center;
+}
+
+.next-button:hover {
+    background-color: #FF4500;
+    transform: scale(1.1);
+}
+
