@@ -1,54 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Sawarabi Mincho", Arial, sans-serif;
-    color: orange;
+    font-family: 'Sawarabi Mincho',Arial, sans-serif;
+    color: #b2ff59;
     background-image: url('https://getwallpapers.com/wallpaper/full/3/7/6/188780.jpg');
     background-size: cover;
-    margin-left: 15px;
-    padding: 0;
-     display: flex;
-    flex-wrap: wrap;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
-    text-align: left;
-    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3em;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #000;
-    color: #ADFF2F;
+    color: limegreen;
 }
 
 p {
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-shadow: 1px 1px 2px #000;
-    margin-bottom: 40px;
-    color: #ADFF2F;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 30px;
 }
 
-
-/* Next Button Styles */
-.next-button {
-    display: inline-block;
-    background-color: #FF6347;
+button {
+    background-color: #ff5722;
     color: white;
     padding: 15px 30px;
-    font-size: 1.5rem;
-    margin-top: 20px;
-    margin-left: 15px;
+    border: none;
     border-radius: 30px;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
-      float: left;
-      text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
 }
 
-.next-button:hover {
+button:hover {
     background-color: #FF4500;
     transform: scale(1.1);
 }
-
